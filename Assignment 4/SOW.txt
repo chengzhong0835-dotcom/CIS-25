@@ -1,0 +1,17 @@
+Project Title:
+Food Management System
+
+Student Name:
+Cheng Zhong
+
+Date:
+July 16, 2026
+
+1. Project Overview
+This program will manage food information. Users can add, view, and save food records. The data will be stored for future use.
+
+2. Features
+
+Add new food items
+View food information
+Save food data

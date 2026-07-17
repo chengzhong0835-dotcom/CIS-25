@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string>
+using namespace std;
+struct Patient
+{
+    int id;
+    string name;
+    int age;
+};
+int main()
+{
+    Patient patient1;
+    patient1.id = 101;
+    patient1.name = "John";
+    patient1.age = 40;
+    Patient* p = &patient1;
+    cout << "Patient ID: " << p->id << endl;
+    cout << "Patient Name: " << p->name << endl;
+    cout << "Patient Age: " << p->age << endl;
+    return 0;
+}
+
+OUTPUT:
+Patient ID: 101
+Patient Name: John
+Patient Age: 40
+
+knowledge check:
+1.After the variable is created, the pointer stores the memory address that the computer automatically gives it. Then we can use that address to access the data.
+2.& operator gets the address of patient1.
+3.
+Patient ID: 101
+Patient Name: John
+Patient Age: 40
